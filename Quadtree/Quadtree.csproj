@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <LangVersion>9.0</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BenchmarkDotNet" Version="0.12.1" />
+      <PackageReference Include="Microsoft.Toolkit.HighPerformance" Version="7.0.0-build.432.g71342d2ed0" />
+    </ItemGroup>
+
+</Project>
